@@ -1,0 +1,26 @@
+import React from 'react';
+
+const Logo = () => {
+  return (
+    <div className="flex items-center space-x-2">
+      <svg className="h-10 w-10" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M256 512C397.385 512 512 397.385 512 256C512 114.615 397.385 0 256 0C114.615 0 0 114.615 0 256C0 397.385 114.615 512 256 512Z" fill="url(#paint0_linear_logo)"/>
+        <path d="M189.556 363.5L136 256L189.556 148.5H322.444L376 256L322.444 363.5H189.556Z" fill="url(#paint1_linear_logo)"/>
+        <path d="M256 307.5L322.444 148.5H189.556L256 307.5Z" fill="white"/>
+        <defs>
+        <linearGradient id="paint0_linear_logo" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#0F172A"/>
+        <stop offset="1" stopColor="#1E293B"/>
+        </linearGradient>
+        <linearGradient id="paint1_linear_logo" x1="136" y1="148.5" x2="376" y2="363.5" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#38BDF8"/>
+        <stop offset="1" stopColor="#F97316"/>
+        </linearGradient>
+        </defs>
+      </svg>
+      <span className="text-2xl font-bold text-foreground">Alfabiz</span>
+    </div>
+  );
+};
+
+export default Logo;
