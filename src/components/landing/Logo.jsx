@@ -6,7 +6,7 @@ const Logo = () => {
       <img
         src="\public\logo.svg"
         alt="Logo Alfabiz"
-        className="h-16 w-32 object-contain"
+        className="h-14 w-48 object-contain"
       />
       <span className="text-2xl font-bold text-foreground"></span>
     </div>
