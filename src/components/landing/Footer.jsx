@@ -52,17 +52,17 @@ const Footer = () => {
           <div>
             <span className="text-lg font-semibold text-primary mb-4 block">Contato</span>
             <div className="space-y-3 text-slate-300">
-              <a href="tel:+5511999999999" className="flex items-center space-x-3 hover:text-primary transition-colors">
+              <a href="tel:+5594991544129" className="flex items-center space-x-3 hover:text-primary transition-colors">
                 <Phone size={18} />
-                <span>(11) 99999-9999</span>
+                <span>(94) 99154-4129</span>
               </a>
-              <a href="mailto:contato@alfabizsol.com.br" className="flex items-center space-x-3 hover:text-primary transition-colors">
+              <a href="mailto:contato.alfabiz@gmail.com" className="flex items-center space-x-3 hover:text-primary transition-colors">
                 <Mail size={18} />
-                <span>contato@alfabizsol.com.br</span>
+                <span>contato.alfabiz@gmail.com</span>
               </a>
               <div className="flex items-center space-x-3">
                 <MapPin size={18} />
-                <span>São Paulo, SP</span>
+                <span>Redenção, PA</span>
               </div>
             </div>
           </div>
