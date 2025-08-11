@@ -34,7 +34,7 @@ const Newsletter = () => {
             Receba dicas exclusivas sobre desenvolvimento web e marketing digital
           </p>
 
-          <form onSubmit={handleNewsletterSubmit} className="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto">
+          <form onSubmit={handleNewsletterSubmit} className="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto items-center">
             <input
               type="email"
               value={email}
