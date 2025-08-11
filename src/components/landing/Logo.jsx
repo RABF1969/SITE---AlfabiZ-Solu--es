@@ -4,8 +4,8 @@ const Logo = () => {
   return (
     <div className="flex items-center space-x-2">
       <img
-        src="\public\logo.svg"
-        alt="Logo Alfabiz"
+        src="/logo.svg"
+        alt="Alfabiz"
         className="h-14 w-48 object-contain"
       />
       <span className="text-2xl font-bold text-foreground"></span>
